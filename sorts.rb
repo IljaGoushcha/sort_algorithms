@@ -3,7 +3,7 @@ require 'pry'
 class Array
 
   def bubble_sort
-    counter = 0
+    counter = 0 # may not need this line
     while self.verify_if_ordered == false do
 
       index1 = 0
@@ -79,9 +79,9 @@ class Array
 
 end
 
-# my_array = [1, 1, 3, 5, 4, 7, 13, 2, 9, 7, 5, 4, 7, 13, 100, 33, 45]
+my_array = [1, 1, 3, 5, 4, 7, 13, 2, 9, 7, 5, 4, 7, 13, 100, 33, 45]
 
-# # my_array.selection_sort
+my_array.bubble_sort
 
 # my_array.selection_sort
 
